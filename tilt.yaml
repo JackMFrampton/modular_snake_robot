@@ -1,0 +1,38 @@
+J1_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: snake_head
+    joint_speed: 3
+    motor:
+        id: 1
+        init: 512
+        min: 0
+        max: 1023
+
+J2_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: snake_body1
+    joint_speed: 3
+    motor:
+        id: 2
+        init: 512
+        min: 0
+        max: 1023
+
+J3_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: snake_body2
+    joint_speed: 3
+    motor:
+        id: 3
+        init: 512
+        min: 0
+        max: 1023

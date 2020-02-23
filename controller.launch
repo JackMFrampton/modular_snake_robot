@@ -1,0 +1,11 @@
+<launch>
+    <!-- Start tilt joint controller -->
+    <rosparam file="$(find snake_robot)/tilt.yaml" command="load"/>
+    <node name="tilt_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+          args="--manager=dxl_manager
+                --port pan_tilt_port
+                J1_controller
+                J2_controller
+                J3_controller"
+          output="screen"/>
+</launch>

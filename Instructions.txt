@@ -1,0 +1,27 @@
+// Setup core of ROS
+[Terminal 1]
+1. cd ~/catkin_ws/
+2. roscore
+
+// Ping Controllers via Controller Manager
+[Terminal 2]
+1. cd ~/catkin_ws/
+2. source devel/setup.bash
+3. roslaunch snake_robot controller_manager.launch
+
+// Initialise Controllers
+[Terminal 3]
+1. cd ~/catkin_ws/
+2. source devel/setup.bash
+3. roslaunch snake_robot controller.launch
+
+// Find Nodes (Not needed to run a process, just to confirm if the nodes have been initialised)
+[Terminal 4]
+1. cd ~/catkin_ws/
+2. rostopic list
+
+// Publish Python Script
+[Terminal 5]
+1. cd ~/catkin_ws/
+2. source devel/setup.bash
+3. rosrun snake_robot publisher_v2.py
