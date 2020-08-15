@@ -6,6 +6,8 @@
                 --port pan_tilt_port
                 J1_controller
                 J2_controller
-                J3_controller"
+                J3_controller
+				J4_controller
+				J5_controller"
           output="screen"/>
 </launch>
