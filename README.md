@@ -24,3 +24,5 @@ Modular Snake Robot - Mechatronics Project
 ● Sensor feedback and motor control [Software development | ROS nodes | Python]
 
 ● Motion Planning & 3D Pose Estimation [Kinematics | Induced sine-wave motion algorithm]
+
+**There was also a team that worked on creating silicon skin, that utilised kirigami techniques to have scales pop out without the need of additional actuators. I did not have involvement in this aspect, but you can read about it in the report should it interest you**
