@@ -5,7 +5,7 @@ Modular Snake Robot - Mechatronics Project
 ## There is also a video of the linear actuators being tested on the latest prototype, you are welcome to ask and I can send it to you
 
 ## NOTE: due to COVID-19 pandemic, this project's timeline was cut in half. Certain objectives were not fully implemented or deployed.
-## However despite these conditions I believe a lot was still achieved and the project shows future promise
+## Despite these conditions I believe a lot was still achieved and the project shows future promise
 ## Because of this, the latest Python scripts are not ideal or efficient and can be improved a lot
 ## However I have added a Video Demonstrations folder to show its capabilities 
 
