@@ -7,7 +7,7 @@ Modular Snake Robot - Mechatronics Project
 ## NOTE: due to COVID-19 pandemic, this project's timeline was cut in half. Certain objectives were not fully implemented or deployed.
 ## Despite these conditions I believe a lot was still achieved and the project shows future promise
 ## Because of this, the latest Python scripts are not ideal or efficient and can be improved a lot
-## However I have added a Video Demonstrations folder to show its capabilities 
+## However I have added a Demonstration Videos folder to show its capabilities 
 
 ### Overview
 ● ROS environment [Linux – Ubuntu | Embedded system]
